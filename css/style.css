@@ -1,9 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: black;
 }
 
 #main {
     position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
 #top-left {
@@ -12,7 +19,7 @@ body {
     padding-top: 10vh;
     top: 0;
     left: 0;
-
+    margin-left: 2vw;
 }
 
 #top-right {
@@ -42,6 +49,11 @@ body {
     width: 50vw;
     bottom: 0;
     right: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 3vw;
 }
 
 .title {
